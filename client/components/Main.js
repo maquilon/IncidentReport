@@ -11,9 +11,9 @@ class Main extends Component {
         return (
             <div>
                 <Header />
-                <div className="container">
-                    {React.cloneElement({...this.props}.children, {...this.props})}
-                </div>
+                    <div className="container">
+                        {React.cloneElement({...this.props}.children, {...this.props})}
+                    </div>
                 <Footer />
                 <Notification />                
             </div>
